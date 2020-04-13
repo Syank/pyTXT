@@ -4,6 +4,8 @@ Esta lib foi criada no intuíto de ajudar novos usuários de Python a manipular
 arquivos do tipo .txt, visto que para quem está começando, trabalhar com o conceito de open(),
 readlines e writelines pode ser um pouco díficil
 
+Para o import pyTXT funcionar, baixe o arquivo pyTXT.py e o deixe no mesmo diretório do seu projeto
+
 Sinta-se livre para modificar a biblioteca para melhor se adaptar ao seu projeto
 
 A biblioteca contém apenas 3 funções:
