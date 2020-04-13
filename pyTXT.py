@@ -18,7 +18,7 @@ def gravarNoTxt(nomeDoTxt, novoConteudo):
     'Adiciona um novo conteúdo ao final do conteúdo já existente'
     conteudo = lerTxt(nomeDoTxt)
     txt = open(nomeDoTxt, 'w', encoding='UTF-8')
-    txt.append((novoConteudo + '\n'))
+    conteudo.append((novoConteudo + '\n'))
     txt.writelines(conteudo)
     txt.close()
 
