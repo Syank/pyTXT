@@ -17,14 +17,14 @@ A biblioteca contém apenas 3 funções:
 
 # Exemplo lerTxt()
  - conteudo = lerTxt('arquivo.txt')
-lerTxt() irá retornar uma lista com o conteúdo separado pelas linhas
+ - Irá retornar uma lista com o conteúdo separado pelas linhas
 
 
 
 
 # Exemplo gravarNoTxt()
  - gravarNoTxt('arquivo.txt', 'Adoro manhãs de Sábado')
- Uma nova linha com o conteúdo 'Adoro manhãs de Sábado' será adicionada ao final do .txt
+ - Uma nova linha com o conteúdo 'Adoro manhãs de Sábado' será adicionada ao final do .txt
       
       
 
