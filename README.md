@@ -1,4 +1,3 @@
- pyTXT
 Uma biblioteca básica para trabalhar com arquivos .txt
 
 Esta lib foi criada no intuíto de ajudar novos usuários de Python a manipular
@@ -13,16 +12,16 @@ A biblioteca contém apenas 3 funções:
   - atualizarTxt(nomeDoTxt, novoConteudo, antigoConteudo)
   
   
-    ----- Abaixo segue um exemplo de utilização e resultado de cada função -----
+-> Abaixo segue um exemplo de utilização e resultado de cada função <-
     
-    arquivo.txt:  # .txt ficticio
+   arquivo.txt:  # .txt ficticio
       123 João Neto
       Rua dos Vagalumes, 987
       Minha cor favorita é vermelho
       O Sol no inverno é extremamente confortável
 
 
---------
+
 import pyTXT  # Exemplo lerTxt()
 conteudo = lerTxt('arquivo.txt')
 print(conteudo)
@@ -33,7 +32,7 @@ print(conteudo)
 
 
 
----------
+
 import pyTXT  # Exemplo gravarNoTxt()
 gravarNoTxt('arquivo.txt', 'Adoro manhãs de Sábado')
   Uma nova linha com o conteúdo 'Adoro manhãs de Sábado' será adicionada ao final do .txt
@@ -47,7 +46,7 @@ arquivo.txt:  # Ao abrir o .txt, o novo texto estará no final do arquivo
       
       
 
--------
+
 import pyTXT  # Exemplo atualizarTxt()
 atualizarTxt('arquivo.txt', 'Minha cor favorita é azul', 'Minha cor favorita é vermelho')
 
